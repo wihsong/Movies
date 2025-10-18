@@ -1,0 +1,27 @@
+# --- Backend specific ignores ---
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# --- Environment files ---
+.env
+my-first-react-app/.env
+
+# --- Logs ---
+backend/logs/
+*.log
+
+# --- Database ---
+*.sqlite
+*.db
+*.dump
+
+# --- OS and IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Build output ---
+my-first-react-app/dist/
+backend/build/
